@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, starbucks, tesla, angular, react as reactImg } from "../assets/images";
 import {
     car,
     contact,
@@ -112,21 +112,21 @@ export const skills = [
 export const experiences = [
     {
         title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        company_name: "React",
+        icon: reactImg,
         iconBg: "#accbe1",
         date: "March 2020 - April 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developing robust and scalable web applications using Angular and TypeScript.",
+            "Collaborating with team members to design and implement features.",
+            "Ensuring high performance and responsiveness of applications.",
+            "Troubleshooting and debugging issues to maintain application stability.",
         ],
     },
     {
-        title: "React Native Developer",
+        title: "Angular Developer",
         company_name: "Tesla",
-        icon: tesla,
+        icon: angular,
         iconBg: "#fbc3bc",
         date: "Jan 2021 - Feb 2022",
         points: [
@@ -156,10 +156,11 @@ export const experiences = [
         iconBg: "#a2d2ff",
         date: "Jan 2023 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Designing, developing, and maintaining full-stack web applications using technologies such as React.js, Angular, Node.js, and Express.js.",
+            "Building RESTful APIs to enable seamless communication between front-end and back-end systems.",
+            "Collaborating with a multidisciplinary team including designers, product managers, and other developers to deliver high-quality products.",
+            "Participating in code reviews and providing constructive feedback to enhance team productivity and code quality.",
+            "Integrating third-party services and APIs to extend application functionality and streamline workflows.",
         ],
     },
 ];
@@ -186,30 +187,16 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
+        name: 'Covid Tracker',
         description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
         link: 'https://github.com/adrianhajdin/pricewise',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
+        name: 'Full Stack Social Media Clone',
         description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
         link: 'https://github.com/adrianhajdin/threads',
-    },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
     },
     {
         iconUrl: estate,
